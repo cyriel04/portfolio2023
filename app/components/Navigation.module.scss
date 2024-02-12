@@ -1,0 +1,23 @@
+.navigation {
+	background: #d9d9d9;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 16px;
+	height: 60px;
+
+	.links {
+		display: flex;
+		gap: 16px;
+	}
+
+	li {
+		list-style: none;
+
+		a {
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}

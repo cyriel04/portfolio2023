@@ -1,10 +1,14 @@
 import React from 'react'
+import styles from './Navigation.module.scss'
+import { Typography } from '@mui/material'
 
 const Navigation = () => {
 	return (
-		<nav id="navigation">
-			<div className="logo">Cyriel Basilio</div>
-			<ul>
+		<nav id="navigation" className={styles.navigation}>
+			<div className="logo">
+				<Typography variant="h5">Cyriel Basilio</Typography>
+			</div>
+			<ul className={styles.links}>
 				<li>
 					<a href="#">About</a>
 				</li>
