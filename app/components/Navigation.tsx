@@ -6,17 +6,14 @@ const Navigation = () => {
 	return (
 		<nav id="navigation" className={styles.navigation}>
 			<div className="logo">
-				<Typography variant="h5">Cyriel Basilio</Typography>
+				<Typography variant="h5">CB</Typography>
 			</div>
 			<ul className={styles.links}>
 				<li>
-					<a href="#">About</a>
-				</li>
-				<li>
-					<a href="#">Experience</a>
-				</li>
-				<li>
 					<a href="#">Projects</a>
+				</li>
+				<li>
+					<a href="#">Skills</a>
 				</li>
 				<li>
 					<a href="#">Contact</a>

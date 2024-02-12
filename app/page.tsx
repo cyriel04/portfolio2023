@@ -10,7 +10,16 @@ export default function Home() {
 		<div>
 			<Navigation />
 			<main className={styles.main}>
-				<Typography variant="h4">Portfolio</Typography>
+				<Typography variant="h2" fontWeight={700}>
+					Hi, I am Cyriel Basilio.
+				</Typography>
+				<Typography variant="h3" fontWeight={500}>
+					A Front End Developer.
+				</Typography>
+				<br />
+				<br />
+				<br />
+				<Typography variant="h4">Projects</Typography>
 				<br />
 				<Article />
 			</main>
