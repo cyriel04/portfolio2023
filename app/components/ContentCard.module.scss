@@ -1,0 +1,7 @@
+.contentCard {
+	min-width: 275px;
+
+	@media (max-width: 767px) {
+		min-width: unset;
+	}
+}

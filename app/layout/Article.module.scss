@@ -2,7 +2,11 @@
 	display: flex;
 	gap: 24px;
 
-	@media (max-width: 767px) {
+	@media (max-width: 1200px) {
+		flex-wrap: wrap;
+	}
+
+	@media (max-width: 1200px) {
 		flex-direction: column;
 	}
 }
