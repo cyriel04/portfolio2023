@@ -1,5 +1,12 @@
 .contentCard {
 	min-width: 275px;
+	background-color: #23283e !important;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px !important;
+
+	p,
+	.title {
+		color: #90a0d9;
+	}
 
 	@media (max-width: 767px) {
 		min-width: unset;
