@@ -11,4 +11,8 @@
 	@media (max-width: 767px) {
 		min-width: unset;
 	}
+
+	&:hover {
+		transform: translateY(-7px);
+	}
 }
