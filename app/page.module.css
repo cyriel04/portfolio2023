@@ -8,6 +8,23 @@
 	color: #90a0d9;
 }
 
+.about {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.nameText {
+	color: #2978b5;
+}
+
+.descriptionText {
+	max-width: 600px;
+}
+
 /* Mobile */
 @media (max-width: 700px) {
 	.content {
